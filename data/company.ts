@@ -4,7 +4,7 @@ export const company = {
   shortName: 'Adin Prod',
   address: {
     ro: 'Comuna Berceni, Bulevardul 1 Mai nr. 214, județul Ilfov, România',
-    en: '[PLACEHOLDER]',
+    en: 'Comuna Berceni, 1 Mai Boulevard no. 214, Ilfov County, Romania',
   },
   emails: ['office@adinprod.ro', 'export@adinprod.ro'],
   phones: ['0040 21 320 25 12', '0040 21 320 25 13'],

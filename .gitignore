@@ -24,3 +24,7 @@ logs
 .env
 .env.*
 !.env.example
+
+# Local project notes (not for the repo)
+docs
+CLAUDE.md

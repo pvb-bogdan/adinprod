@@ -7,7 +7,8 @@
     "menu": "Menu",
     "close": "Close menu",
     "language": "Language",
-    "skip": "Skip to content"
+    "skip": "Skip to content",
+    "breadcrumb": "Breadcrumb"
   },
   "common": {
     "seeProducts": "See products",
@@ -31,63 +32,65 @@
   "seo": {
     "siteName": "Adin Prod",
     "home": {
-      "title": "[PLACEHOLDER]",
-      "description": "[PLACEHOLDER]"
+      "title": "Protective films, stretch film and adhesive tapes | Adin Prod",
+      "description": "Adin Prod imports and distributes protective films, stretch film and adhesive tapes for industry and packaging, tailored to each customer’s needs."
     },
     "about": {
-      "title": "[PLACEHOLDER]",
-      "description": "[PLACEHOLDER]"
+      "title": "About us | Adin Prod",
+      "description": "SC ADIN PROD INTERNATIONAL SRL is an importer and distributor of protective films, stretch films and self-adhesive tapes, with prompt delivery from our Bucharest warehouse."
     },
     "products": {
-      "title": "[PLACEHOLDER]",
-      "description": "[PLACEHOLDER]"
+      "title": "Products: protective films, stretch film, adhesive tapes | Adin Prod",
+      "description": "Protective films, stretch film and adhesive tapes for surface protection and goods packaging. See the Adin Prod range."
     },
     "foliiProtectie": {
-      "title": "[PLACEHOLDER]",
-      "description": "[PLACEHOLDER]"
+      "title": "Protective films | Adin Prod",
+      "description": "Polyethylene protective films with acrylic adhesive for pre-painted sheet metal, stainless steel, aluminium, carpet, glass and polycarbonate. They peel off without adhesive residue."
     },
     "foliiStretch": {
-      "title": "[PLACEHOLDER]",
-      "description": "[PLACEHOLDER]"
+      "title": "Stretch film | Adin Prod",
+      "description": "Clear or black stretch film, 125 – 500 mm, 17 – 23 mic, for manual or automatic wrapping, with loads of up to 1000 kg per pallet."
     },
     "benziAdezive": {
-      "title": "[PLACEHOLDER]",
-      "description": "[PLACEHOLDER]"
+      "title": "Adhesive tapes | Adin Prod",
+      "description": "BOPP adhesive tapes with acrylic, natural rubber or hot melt adhesive, for plastic, paper, cardboard, metal, glass and wood."
     },
     "contact": {
-      "title": "[PLACEHOLDER]",
-      "description": "[PLACEHOLDER]"
+      "title": "Contact | Adin Prod",
+      "description": "Contact Adin Prod for protective films, stretch film and adhesive tapes. Berceni, Ilfov. Phone 0040 21 320 25 12."
     },
     "thanks": {
-      "title": "[PLACEHOLDER]",
-      "description": "[PLACEHOLDER]"
+      "title": "Thank you | Adin Prod",
+      "description": "Your message has been sent to Adin Prod."
     }
   },
   "home": {
     "hero": {
-      "title": "[PLACEHOLDER]",
-      "subtitle": "[PLACEHOLDER]",
-      "cta": "[PLACEHOLDER]",
+      "title": "Protective films, stretch films and adhesive tapes",
+      "subtitle": "Importer and distributor for industry and packaging, with products tailored to each customer’s needs.",
+      "cta": "See products",
       "prev": "Previous image",
       "next": "Next image",
-      "goTo": "Go to image {n}"
+      "goTo": "Go to image {n}",
+      "pause": "Pause slider",
+      "play": "Play slider"
     },
     "intro": {
-      "title": "[PLACEHOLDER]",
-      "text": "[PLACEHOLDER]"
+      "title": "Protection solutions for industry and packaging",
+      "text": "We import and distribute protective films, stretch films and adhesive tapes. We protect surfaces during production, storage, transport and installation, and our products can be tailored to each customer."
     }
   },
   "about": {
-    "title": "[PLACEHOLDER]",
-    "p1": "[PLACEHOLDER]",
-    "p2": "[PLACEHOLDER]",
-    "p3": "[PLACEHOLDER]",
-    "imageAlt": "[PLACEHOLDER]"
+    "title": "About us",
+    "p1": "SC ADIN PROD INTERNATIONAL SRL is an importer and distributor of protective films, stretch films and self-adhesive tapes. The experience we have gained over the years allows us to offer customers personalised products, tailored to their needs.",
+    "p2": "We offer competitive prices and prompt delivery. Products are delivered from our warehouse in Bucharest or directly from our suppliers’ warehouses, on order.",
+    "p3": "Our customers are our business partners. Every day we strive to earn and keep their trust through the products we supply.",
+    "imageAlt": "The Adin Prod office"
   },
   "products": {
-    "title": "[PLACEHOLDER]",
-    "surfacesTitle": "[PLACEHOLDER]",
-    "commonSpecs": "[PLACEHOLDER]"
+    "title": "Our products",
+    "surfacesTitle": "Surfaces that can be protected",
+    "commonSpecs": "Common specifications"
   },
   "specs": {
     "type": "Film type",
@@ -99,10 +102,10 @@
     "maxLoad": "Maximum load"
   },
   "contact": {
-    "title": "[PLACEHOLDER]",
-    "intro": "[PLACEHOLDER]",
-    "detailsTitle": "[PLACEHOLDER]",
-    "formTitle": "[PLACEHOLDER]",
+    "title": "Contact",
+    "intro": "If you would like to get in touch, use the details below or the form alongside.",
+    "detailsTitle": "Contact details",
+    "formTitle": "Send us a message",
     "form": {
       "yourname": "Name",
       "email": "Email",
@@ -112,12 +115,13 @@
       "comments": "Message",
       "required": "required",
       "submit": "Send",
-      "error": "[PLACEHOLDER]"
+      "error": "Your message could not be sent. Please check the required fields and try again.",
+      "sending": "Sending…"
     }
   },
   "thanks": {
-    "title": "[PLACEHOLDER]",
-    "text": "[PLACEHOLDER]",
-    "back": "[PLACEHOLDER]"
+    "title": "Thank you!",
+    "text": "Thank you! Your message has been sent.",
+    "back": "Back to the home page"
   }
 }

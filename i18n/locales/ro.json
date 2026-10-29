@@ -7,7 +7,8 @@
     "menu": "Meniu",
     "close": "Închide meniul",
     "language": "Limba",
-    "skip": "Sari la conținut"
+    "skip": "Sari la conținut",
+    "breadcrumb": "Navigare"
   },
   "common": {
     "seeProducts": "Vezi produsele",
@@ -70,7 +71,9 @@
       "cta": "Vezi produsele",
       "prev": "Imaginea anterioară",
       "next": "Imaginea următoare",
-      "goTo": "Mergi la imaginea {n}"
+      "goTo": "Mergi la imaginea {n}",
+      "pause": "Pauză slider",
+      "play": "Redă slider"
     },
     "intro": {
       "title": "Soluții de protecție pentru industrie și ambalare",
@@ -112,7 +115,8 @@
       "comments": "Mesaj",
       "required": "obligatoriu",
       "submit": "Trimite",
-      "error": "Mesajul nu a putut fi trimis. Verificați câmpurile obligatorii și încercați din nou."
+      "error": "Mesajul nu a putut fi trimis. Verificați câmpurile obligatorii și încercați din nou.",
+      "sending": "Se trimite…"
     }
   },
   "thanks": {

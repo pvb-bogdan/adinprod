@@ -11,9 +11,15 @@
   --color-line: #e3e6ea;
   --color-surface: #f5f6f8;
   --color-footer: #16191d;
-  --color-whatsapp: #25d366;
+  /* Verde mai închis decât cel oficial (#25d366): alb pe #25d366 are doar 1,98:1, aici 5,2:1 */
+  --color-whatsapp: #0f7d3f;
+  /* Bordura câmpurilor de formular: min. 3:1 pe alb (--color-line e doar pentru separatoare) */
+  --color-field: #8a929b;
 
   --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+  /* Curba de "settle" folosită pentru mișcările care se opresc singure (revenire după swipe, hover) */
+  --ease-settle: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 @layer base {
@@ -24,12 +30,67 @@
   body {
     @apply bg-white font-sans text-ink antialiased;
   }
+
+  /* Tracking pe mărime: textul mare se strânge, textul de corp rămâne neschimbat */
+  h1 {
+    letter-spacing: -0.025em;
+    text-wrap: balance;
+  }
+
+  h2 {
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+
+  h3 {
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  /* Tailwind v4 nu mai pune cursor:pointer pe butoane; touch-action elimină întârzierea la atingere */
+  button:not(:disabled),
+  [role='button']:not([aria-disabled='true']) {
+    cursor: pointer;
+  }
+
+  a,
+  button,
+  input,
+  textarea {
+    touch-action: manipulation;
+  }
+}
+
+/* Cine cere contrast mai mare primește text secundar mai închis și borduri vizibile */
+@media (prefers-contrast: more) {
+  :root {
+    --color-muted: #3b424b;
+    --color-line: #8d949c;
+  }
 }
 
 @utility container-page {
   @apply mx-auto w-full max-w-6xl px-4 sm:px-6;
 }
 
+/* Feedback pe apăsare: instant (100 ms), nu așteaptă eliberarea */
 @utility btn-primary {
-  @apply inline-flex items-center justify-center rounded-md bg-brand px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-dark focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand;
+  @apply inline-flex items-center justify-center rounded-md bg-brand px-5 py-2.5 text-sm font-semibold text-white transition-[background-color,transform] duration-100 ease-out hover:bg-brand-dark focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand active:scale-[0.97] motion-reduce:active:scale-100;
+}
+
+/* Material translucid pentru bare fixe: conținutul trece pe sub ele */
+@utility glass {
+  background-color: rgb(255 255 255 / 0.78);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
+
+  @media (prefers-reduced-transparency: reduce) {
+    background-color: #fff;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
 }
