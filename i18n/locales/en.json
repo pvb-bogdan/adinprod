@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About us",
+    "products": "Products",
+    "contact": "Contact",
+    "menu": "Menu",
+    "close": "Close menu",
+    "language": "Language",
+    "skip": "Skip to content"
+  },
+  "common": {
+    "seeProducts": "See products",
+    "seeProduct": "See product",
+    "specs": "Specifications",
+    "placeholder": "[PLACEHOLDER]"
+  },
+  "footer": {
+    "contact": "Contact",
+    "address": "Address",
+    "email": "Email",
+    "phone": "Phone",
+    "followUs": "Follow us",
+    "facebook": "Facebook",
+    "rights": "All rights reserved."
+  },
+  "whatsapp": {
+    "label": "Message us on WhatsApp",
+    "floating": "Contact us on WhatsApp"
+  },
+  "seo": {
+    "siteName": "Adin Prod",
+    "home": {
+      "title": "[PLACEHOLDER]",
+      "description": "[PLACEHOLDER]"
+    },
+    "about": {
+      "title": "[PLACEHOLDER]",
+      "description": "[PLACEHOLDER]"
+    },
+    "products": {
+      "title": "[PLACEHOLDER]",
+      "description": "[PLACEHOLDER]"
+    },
+    "foliiProtectie": {
+      "title": "[PLACEHOLDER]",
+      "description": "[PLACEHOLDER]"
+    },
+    "foliiStretch": {
+      "title": "[PLACEHOLDER]",
+      "description": "[PLACEHOLDER]"
+    },
+    "benziAdezive": {
+      "title": "[PLACEHOLDER]",
+      "description": "[PLACEHOLDER]"
+    },
+    "contact": {
+      "title": "[PLACEHOLDER]",
+      "description": "[PLACEHOLDER]"
+    },
+    "thanks": {
+      "title": "[PLACEHOLDER]",
+      "description": "[PLACEHOLDER]"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "[PLACEHOLDER]",
+      "subtitle": "[PLACEHOLDER]",
+      "cta": "[PLACEHOLDER]",
+      "prev": "Previous image",
+      "next": "Next image",
+      "goTo": "Go to image {n}"
+    },
+    "intro": {
+      "title": "[PLACEHOLDER]",
+      "text": "[PLACEHOLDER]"
+    }
+  },
+  "about": {
+    "title": "[PLACEHOLDER]",
+    "p1": "[PLACEHOLDER]",
+    "p2": "[PLACEHOLDER]",
+    "p3": "[PLACEHOLDER]",
+    "imageAlt": "[PLACEHOLDER]"
+  },
+  "products": {
+    "title": "[PLACEHOLDER]",
+    "surfacesTitle": "[PLACEHOLDER]",
+    "commonSpecs": "[PLACEHOLDER]"
+  },
+  "specs": {
+    "type": "Film type",
+    "color": "Colour",
+    "thickness": "Thickness",
+    "width": "Width",
+    "length": "Length",
+    "adhesion": "Adhesion",
+    "maxLoad": "Maximum load"
+  },
+  "contact": {
+    "title": "[PLACEHOLDER]",
+    "intro": "[PLACEHOLDER]",
+    "detailsTitle": "[PLACEHOLDER]",
+    "formTitle": "[PLACEHOLDER]",
+    "form": {
+      "yourname": "Name",
+      "email": "Email",
+      "telefon": "Phone",
+      "company": "Company",
+      "subject": "Subject",
+      "comments": "Message",
+      "required": "required",
+      "submit": "Send",
+      "error": "[PLACEHOLDER]"
+    }
+  },
+  "thanks": {
+    "title": "[PLACEHOLDER]",
+    "text": "[PLACEHOLDER]",
+    "back": "[PLACEHOLDER]"
+  }
+}

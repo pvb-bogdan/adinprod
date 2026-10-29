@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "home": "Acasă",
+    "about": "Despre noi",
+    "products": "Produse",
+    "contact": "Contact",
+    "menu": "Meniu",
+    "close": "Închide meniul",
+    "language": "Limba",
+    "skip": "Sari la conținut"
+  },
+  "common": {
+    "seeProducts": "Vezi produsele",
+    "seeProduct": "Vezi produsul",
+    "specs": "Specificații",
+    "placeholder": "[PLACEHOLDER]"
+  },
+  "footer": {
+    "contact": "Contact",
+    "address": "Adresă",
+    "email": "Email",
+    "phone": "Telefon",
+    "followUs": "Urmărește-ne",
+    "facebook": "Facebook",
+    "rights": "Toate drepturile rezervate."
+  },
+  "whatsapp": {
+    "label": "Scrie-ne pe WhatsApp",
+    "floating": "Contactează-ne pe WhatsApp"
+  },
+  "seo": {
+    "siteName": "Adin Prod",
+    "home": {
+      "title": "Folii de protecție, folie stretch și benzi adezive | Adin Prod",
+      "description": "Adin Prod importă și distribuie folii de protecție, folie stretch și benzi adezive pentru industrie și ambalare, adaptate nevoilor fiecărui client."
+    },
+    "about": {
+      "title": "Despre noi | Adin Prod",
+      "description": "SC ADIN PROD INTERNATIONAL SRL este importator și distribuitor de folii de protecție, folii stretch și benzi autoadezive, cu livrare promptă din depozitul din București."
+    },
+    "products": {
+      "title": "Produse: folii de protecție, folie stretch, benzi adezive | Adin Prod",
+      "description": "Folii de protecție, folie stretch și benzi adezive pentru protecția suprafețelor și ambalarea mărfurilor. Vezi gama Adin Prod."
+    },
+    "foliiProtectie": {
+      "title": "Folii de protecție | Adin Prod",
+      "description": "Folii de protecție din polietilenă cu adeziv acrilic pentru tablă prevopsită, inox, aluminiu, mochetă, geam și policarbonat. Se îndepărtează fără urme de adeziv."
+    },
+    "foliiStretch": {
+      "title": "Folie stretch | Adin Prod",
+      "description": "Folie stretch transparentă sau neagră, 125 – 500 mm, 17 – 23 mic, pentru ambalare manuală sau automată, cu sarcini de până la 1000 kg pe palet."
+    },
+    "benziAdezive": {
+      "title": "Benzi adezive | Adin Prod",
+      "description": "Benzi adezive din BOPP cu adeziv acrilic, cauciuc natural sau hot melt, pentru plastic, hârtie, carton, metal, sticlă și lemn."
+    },
+    "contact": {
+      "title": "Contact | Adin Prod",
+      "description": "Contactează Adin Prod pentru folii de protecție, folie stretch și benzi adezive. Berceni, Ilfov. Telefon 0040 21 320 25 12."
+    },
+    "thanks": {
+      "title": "Mulțumim | Adin Prod",
+      "description": "Mesajul a fost trimis către Adin Prod."
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Folii de protecție, folii stretch și benzi adezive",
+      "subtitle": "Importator și distribuitor pentru industrie și ambalare, cu produse adaptate nevoilor fiecărui client.",
+      "cta": "Vezi produsele",
+      "prev": "Imaginea anterioară",
+      "next": "Imaginea următoare",
+      "goTo": "Mergi la imaginea {n}"
+    },
+    "intro": {
+      "title": "Soluții de protecție pentru industrie și ambalare",
+      "text": "Importăm și distribuim folii de protecție, folii stretch și benzi adezive. Protejăm suprafețele în producție, depozitare, transport și montaj, iar produsele pot fi adaptate fiecărui client."
+    }
+  },
+  "about": {
+    "title": "Despre noi",
+    "p1": "SC ADIN PROD INTERNATIONAL SRL este importator și distribuitor de folii de protecție, folii stretch și benzi autoadezive. Experiența acumulată de-a lungul anilor ne permite să oferim clienților produse personalizate, adaptate nevoilor fiecăruia.",
+    "p2": "Oferim o politică de prețuri avantajoasă și livrare promptă. Produsele se livrează din depozitul nostru din București sau direct din depozitele furnizorilor, pe baza comenzii.",
+    "p3": "Clienții noștri sunt partenerii noștri de afaceri. Ne străduim în fiecare zi să le câștigăm și să le păstrăm încrederea prin produsele pe care le furnizăm.",
+    "imageAlt": "Biroul Adin Prod"
+  },
+  "products": {
+    "title": "Produsele noastre",
+    "surfacesTitle": "Suprafețe care pot fi protejate",
+    "commonSpecs": "Specificații comune"
+  },
+  "specs": {
+    "type": "Tip folie",
+    "color": "Culoare",
+    "thickness": "Grosime",
+    "width": "Lățime",
+    "length": "Lungime",
+    "adhesion": "Aderență",
+    "maxLoad": "Sarcină maximă"
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Dacă doriți să ne contactați, folosiți datele de mai jos sau formularul alăturat.",
+    "detailsTitle": "Date de contact",
+    "formTitle": "Trimite-ne un mesaj",
+    "form": {
+      "yourname": "Nume",
+      "email": "Email",
+      "telefon": "Telefon",
+      "company": "Firma",
+      "subject": "Subiect",
+      "comments": "Mesaj",
+      "required": "obligatoriu",
+      "submit": "Trimite",
+      "error": "Mesajul nu a putut fi trimis. Verificați câmpurile obligatorii și încercați din nou."
+    }
+  },
+  "thanks": {
+    "title": "Mulțumim!",
+    "text": "Mulțumim! Mesajul a fost trimis.",
+    "back": "Înapoi la pagina principală"
+  }
+}
