@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { whatsappUrl } from '~/data/company'
+import { whatsappUrl } from '~~/data/company'
 </script>
 
 <template>

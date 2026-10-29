@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { company, telHref } from '~/data/company'
+import { company, telHref } from '~~/data/company'
 
 const tr = useLocalized()
 const year = new Date().getFullYear()

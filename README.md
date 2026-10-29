@@ -1,6 +1,6 @@
 # adinprod.ro
 
-Site de prezentare pentru SC ADIN PROD INTERNATIONAL SRL, refăcut cu Nuxt 3, Tailwind CSS și `@nuxtjs/i18n`. Se generează static și se urcă în `public_html` pe cPanel.
+Site de prezentare pentru SC ADIN PROD INTERNATIONAL SRL, refăcut cu Nuxt 4, Tailwind CSS și `@nuxtjs/i18n`. Se generează static și se urcă în `public_html` pe cPanel.
 
 ## Rulare locală
 
@@ -27,6 +27,6 @@ Conținutul folderului `.output/public` se urcă în `public_html`.
 | Produse, specificații, imagini de produs | `data/products.ts` |
 | Imaginile din slider | `data/hero.ts` |
 | Meniu, titluri, butoane, texte de pagină, SEO | `i18n/locales/ro.json` (și `en.json`) |
-| Culori | `assets/css/main.css` (`@theme`) |
+| Culori | `app/assets/css/main.css` (`@theme`) |
 
 Imaginile sunt în `public/images/`. Unde informația lipsește apare `[PLACEHOLDER]`.

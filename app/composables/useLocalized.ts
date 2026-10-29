@@ -1,4 +1,4 @@
-import type { Locale, Localized } from '~/data/products'
+import type { Locale, Localized } from '~~/data/products'
 
 // Alege textul în limba curentă dintr-o valoare din data/*.ts
 export function useLocalized() {

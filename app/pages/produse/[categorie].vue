@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { getCategory } from '~/data/products'
+import { getCategory } from '~~/data/products'
 
 const route = useRoute()
 const tr = useLocalized()

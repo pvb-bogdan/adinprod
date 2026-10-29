@@ -10,10 +10,10 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxt/image": "^1.11.0",
+    "@nuxt/image": "^2.2.0",
     "@nuxtjs/i18n": "^10.6.0",
-    "@nuxtjs/sitemap": "^8.6.2",
-    "nuxt": "^3.21.11"
+    "@nuxtjs/sitemap": "^9.1.0",
+    "nuxt": "^4.6.3"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.3.3",
